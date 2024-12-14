@@ -12,13 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install dotnet
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 9.0.x
-
     - name: Execute everything
-      run: ./runall.ps1
+      run: ./build.sh

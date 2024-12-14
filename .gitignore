@@ -1,6 +1,9 @@
 bin
 obj
 .vscode
+example?.txt
 input
 input.txt
 input1.txt
+junk
+Program.cs.txt
